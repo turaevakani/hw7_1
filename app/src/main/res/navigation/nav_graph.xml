@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myHouseFragment">
+
+    <fragment
+        android:id="@+id/myHouseFragment"
+        android:name="com.example.hw7_1.ui.house.HouseFragment"
+        android:label="@string/hello_blank_fragment"
+        tools:layout="@layout/fragment_house"/>
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.hw7_1.ui.CameraFragment"
+        android:label="@string/hello_blank_fragment"
+        tools:layout="@layout/fragment_camera"/>
+
+    <fragment
+        android:id="@+id/doorFragment"
+        android:name="com.example.hw7_1.ui.door.DoorFragment"
+        android:label="@string/hello_blank_fragment"
+        tools:layout="@layout/fragment_door"/>
+
+</navigation>
